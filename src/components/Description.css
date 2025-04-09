@@ -1,0 +1,72 @@
+body,html{
+  overflow-x: hidden;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(243, 241, 241);
+}
+
+.des-main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.des-upper-div{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.15;
+}
+
+.des-lower-div{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap:10px;
+}
+
+.des-lower-div-left{
+  background-color: rgb(0, 0, 0);
+}
+
+.des-lower-div-right{
+  background-color: rgb(0, 0, 0);
+}
+
+.des-upper-div h1{
+  font-weight:bolder;
+  font-size: 85px;
+  letter-spacing: -3.5px;
+}
+
+.des-lower-divs{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border: 2px white solid;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+.des-lower-div-left img{
+  max-width: 100%;
+  height: auto;
+  max-height: 70vh;
+  border-radius: 1%;
+  object-fit: cover;
+}
+
+.des-lower-div-right span{
+  max-width: 70%;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}

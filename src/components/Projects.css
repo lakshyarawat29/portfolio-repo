@@ -1,0 +1,44 @@
+.main-project-div{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+}
+
+.upper-div{
+  display: flex;
+  flex: 0.5;
+  gap: 3vw;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+
+}
+
+.lower-div{
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+
+  background-color: blue;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  width: 45vw;
+  background-color: rgb(151, 29, 29);
+  font-size: 5vw;
+  background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjV0d3BvYjN6NjBtN3I0YzU0ZGFlM3M0b2E1ODdmOTBvaXM4eHE4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYPWj8QHG7FAgpy/giphy.gif');
+  background-size: contain;
+  border-radius: 10px 10px;
+}
+
+.hidden-container{
+  visibility: hidden ;
+}
