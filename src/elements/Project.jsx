@@ -17,7 +17,7 @@ const Project = ({ project_name, project_desc, project_links }) => {
             rel="noopener noreferrer"
             className="github-link"
           >
-            <img src={GitHub} alt="GitHub Repo" className="github-icon" />
+            <img src={github} alt="GitHub Repo" className="github-icon" />
           </a>
         </div>
       </div>
