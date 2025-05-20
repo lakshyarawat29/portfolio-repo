@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import GitHub from '../assets/techIcons/techicons';
+import github from '../assets/techIcons/techicons';
 
 const Project = ({ project_name, project_desc, project_links }) => {
   return (
