@@ -1,8 +1,6 @@
 import React from 'react';
 import { motion, useScroll, useTransform,useAnimation, useInView } from 'framer-motion';
 import './Description.css';
-import FloatingImage from '../assets/dummy/contactUs.png'; // Add your image
-
 import dp from '../assets/dp.png';
 
 const Description = () => {

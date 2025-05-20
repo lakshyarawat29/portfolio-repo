@@ -1,0 +1,11 @@
+.custom-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.1);
+  mix-blend-mode: difference; /* optional, can make it disappear on light backgrounds */
+}
