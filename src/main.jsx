@@ -15,7 +15,7 @@ createRoot(document.getElementById('root')).render(
     <CustomCursor />
     <Home />
     <Description />
-    <Techstack />
+    {/* <Techstack /> */}
     <Projects />
     <Achievements />
     <MySkill />
